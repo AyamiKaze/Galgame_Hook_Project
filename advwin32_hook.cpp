@@ -267,7 +267,7 @@ _declspec(naked) void _TextProc3()
 	}
 }
 
-/***************************** MCA *****************************/
+/***************************** MCG *****************************/
 
 char* FileName = nullptr;
 char* MCGDIBBuffer = nullptr;
@@ -391,7 +391,7 @@ void __stdcall MCGProc()
 
 #endif
 
-// MCA里解压函数后
+// MCG里解压函数后
 PVOID ReadMCGDIB_addr = 0;
 _declspec(naked) void ReadMCGDIB()
 {
